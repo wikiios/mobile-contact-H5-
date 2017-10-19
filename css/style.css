@@ -1,0 +1,60 @@
+@charset "utf-8";
+body,div,dl,dt,dd,ul,li,form,input,button,h1,h2,h3,h4,h5,h6,p{margin: 0 auto;padding:0;font-family:"微软雅黑";color:#0066FF}
+ul,li,dl,dt,dd{display:block;list-style:none;}
+a{text-decoration:none;outline:none;}
+.fl{float:left;}
+.fr{float:right;}
+.none{display:none;}
+.loan_jm1{width:94%;margin:0 auto;}
+.loan_jm_spa1{width:39%;height:40px;line-height:40px;font-size:1em;color:#666;display:block;float:left;}
+.loan_jm_l1{margin-top:10px;margin-bottom:15px;height:40px;}
+.wbk_srn{width:57%;height:40px;border:1px solid #ccc;background:#FFF;float:left;padding-left:3%;line-height:40px;color:#ADADAD;
+font-size:1.1em; background-size:45%;background-position:center;background:#fff;}
+.wbk_srn b{width:30px;height:40px;border:1px solid #ccc;background:#FFF;float:left;padding-left:3%;line-height:40px;color:#ADADAD;
+font-size:1.1em;}
+/*输入框美化*/
+input{
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	color: #000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	height: 50px;
+	padding: 0 16px;
+	transition: background 0.3s ease-in-out;
+	width: 100%;
+}
+input:focus {
+	outline: none;
+	border-color: #9ecaed;
+	box-shadow: 0 0 10px #9ecaed;
+}
+/*显示点击是哪个字母*/
+.showLetter{
+    position: fixed;
+    color:#0066FF;
+    width: 50px;
+    height:50px;
+    top:50%;
+    left: 50%;
+    border-radius: 50%;
+    border: #0066FF 1px solid;
+    text-align: center;
+    display: none;
+}
+.showLetter span{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+}
+/*联系人弹层*/
+.container{width:80%;}
+.letter{width:auto;position:fixed;top:10%;right:10px;text-align:center; z-index:999;}
+.letter ul{list-style-type:none;}
+.letter ul li a{text-decoration:none;color:#0066FF;font-size: 18px}
+.con{width:90%;overflow:hidden;padding:20px;}
+.con-list{width:100%;}
+.con-list .con-letter{font-size:20px;display:inline-block;padding-top:15px;padding-bottom:5px;border-bottom:1px solid #e8ecf1;width:100%;}
+.con-list p{color:#afafaf;width:95%;height:50px;line-height:50px;border-bottom:1px solid #e8ecf1;cursor:pointer;}
+.UISelect{margin-top:5px}
